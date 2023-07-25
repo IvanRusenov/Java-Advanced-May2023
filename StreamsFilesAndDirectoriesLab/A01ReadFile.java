@@ -11,7 +11,7 @@ public class A01ReadFile {
 
         Scanner scan = new Scanner(System.in);
 
-        String filePath = "C:\\Users\\Chimi\\Desktop\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\input.txt";
+        String filePath = "C:\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\input.txt";
 
         try (InputStream inputStream = new FileInputStream(filePath)) {
 
