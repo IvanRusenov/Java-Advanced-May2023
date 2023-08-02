@@ -6,7 +6,7 @@ public class A05WriteEveryThirdLine {
 
     public static void main(String[] args){
 
-        String filePath = "C:\\Users\\Chimi\\Desktop\\04. Java-Advanced-Files-and-Streams-Lab-Resources";
+        String filePath = "C:\\04. Java-Advanced-Files-and-Streams-Lab-Resources";
         String readPath = filePath + "\\input.txt";
         String writePath = filePath + "\\output1.txt";
 
