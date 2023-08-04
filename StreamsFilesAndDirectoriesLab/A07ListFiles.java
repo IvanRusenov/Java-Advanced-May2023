@@ -10,8 +10,7 @@ public class A07ListFiles {
 
     public static void main(String[] args) throws IOException {
 
-        String path = "C:\\Users\\Chimi\\Desktop" +
-                "\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\Files-and-Streams";
+        String path = "C:\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\Files-and-Streams";
 
         File file = new File(path);
 
