@@ -9,7 +9,7 @@ public class A01SumLines {
 
     public static void main(String[] args) throws IOException {
 
-        String path = "C:\\Users\\Chimi\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt";
+        String path = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt";
         List<String> lines = Files.readAllLines(Path.of(path));
 
         lines.forEach(line -> {
