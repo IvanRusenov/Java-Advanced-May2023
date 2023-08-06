@@ -9,7 +9,7 @@ public class A02SumBytes {
 
     public static void main(String[] args) throws IOException {
 
-        String path = "C:\\Users\\Chimi\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt";
+        String path = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt";
 
         try (BufferedReader reader = Files.newBufferedReader(Path.of(path))) {
 
