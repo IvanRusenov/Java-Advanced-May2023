@@ -10,7 +10,7 @@ public class A03AllCapitals {
 
     public static void main(String[] args) throws IOException {
 
-        String inPath = "C:\\Users\\Chimi\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt";
+        String inPath = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt";
         String outPath = "C:\\Users\\Chimi\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\output.txt";
         OutputStream writer =  Files.newOutputStream(Path.of(outPath));
 
