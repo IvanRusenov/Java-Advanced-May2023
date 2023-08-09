@@ -11,11 +11,9 @@ public class A05LineNumbers {
 
     public static void main(String[] args) throws IOException {
 
-        String inPath = "C:\\Users\\Chimi\\Desktop\\" +
-                "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\inputLineNumbers.txt";
+        String inPath = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\inputLineNumbers.txt";
 
-        String outPath = "C:\\Users\\Chimi\\Desktop\\" +
-                "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\output.txt";
+        String outPath = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\output.txt";
 
         try (BufferedReader reader = Files.newBufferedReader(Path.of(inPath));
              BufferedWriter writer = Files.newBufferedWriter(Path.of(outPath))) {
