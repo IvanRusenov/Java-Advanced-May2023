@@ -13,14 +13,11 @@ public class A06WordCount {
 
     public static void main(String[] args) {
 
-        String inPath = "C:\\Users\\Chimi\\Desktop\\" +
-                "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\words.txt";
+        String inPath = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\words.txt";
 
-        String inPath2 = "C:\\Users\\Chimi\\Desktop\\" +
-                "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\text.txt";
+        String inPath2 = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\text.txt";
 
-        String outPath = "C:\\Users\\Chimi\\Desktop\\" +
-                "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\results.txt";
+        String outPath = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\results.txt";
 
         Map<String, Integer> wordsMap = new HashMap<>();
 
