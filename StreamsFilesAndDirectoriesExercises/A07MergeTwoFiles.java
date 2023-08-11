@@ -10,11 +10,9 @@ public class A07MergeTwoFiles {
 
     public static void main(String[] args) {
 
-        String inPath = "C:\\Users\\Chimi\\Desktop\\" +
-                "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\inputOne.txt";
+        String inPath = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\inputOne.txt";
 
-        String inPath2 = "C:\\Users\\Chimi\\Desktop\\" +
-                "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\inputTwo.txt";
+        String inPath2 = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\inputTwo.txt";
 
         String outPath = "C:\\Users\\Chimi\\Desktop\\" +
                 "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\results.txt";
