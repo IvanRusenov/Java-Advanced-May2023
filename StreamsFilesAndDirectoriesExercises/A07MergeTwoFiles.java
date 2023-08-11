@@ -14,8 +14,7 @@ public class A07MergeTwoFiles {
 
         String inPath2 = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\inputTwo.txt";
 
-        String outPath = "C:\\Users\\Chimi\\Desktop\\" +
-                "04. Java-Advanced-Files-and-Streams-Exercises-Resources\\results.txt";
+        String outPath = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\results.txt";
 
         try (BufferedReader reader = Files.newBufferedReader(Path.of(inPath));
              BufferedReader reader2 = Files.newBufferedReader(Path.of(inPath2));
