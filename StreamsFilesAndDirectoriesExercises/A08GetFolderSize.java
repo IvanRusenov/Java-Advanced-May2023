@@ -6,7 +6,7 @@ public class A08GetFolderSize {
 
     public static void main(String[] args) {
 
-        String path = "C:\\Users\\Chimi\\Desktop\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\Exercises Resources";
+        String path = "C:\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\Exercises Resources";
 
         File folder = new File(path);
         File[] files = folder.listFiles();
